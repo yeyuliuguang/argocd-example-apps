@@ -3,7 +3,8 @@ kind: Ingress
 metadata:
   labels:
     io.portainer.kubernetes.ingress.owner: admin
-  name: guestbook
+  name: guestbookguestbook-ingress
+  namespace: default
 spec:
   ingressClassName: traefik
   rules:
